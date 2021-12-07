@@ -1,4 +1,4 @@
-package com.why.serviceproviderframework;
+package com.why.p1serviceproviderframework;
 
 /**
  * 服务提供者接口

@@ -1,4 +1,4 @@
-package com.why.serviceproviderframework;
+package com.why.p1serviceproviderframework;
 
 /**
  * 服务提供者具体实现类
@@ -12,7 +12,7 @@ public class LocalUserProviderImpl implements UserProvider{
     private UserService localUserService = new LocalUserServiceImpl();
 
     static{
-        ServerManager.registerProvider("com.why.serviceproviderframework.LocalUserProviderImpl", new LocalUserProviderImpl());
+        ServerManager.registerProvider("com.why.p1serviceproviderframework.LocalUserProviderImpl", new LocalUserProviderImpl());
     }
 
     public UserService getUserService() {

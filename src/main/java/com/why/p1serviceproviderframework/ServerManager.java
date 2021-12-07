@@ -1,4 +1,4 @@
-package com.why.serviceproviderframework;
+package com.why.p1serviceproviderframework;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

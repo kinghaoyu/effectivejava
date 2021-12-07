@@ -1,6 +1,4 @@
-package com.why.serviceproviderframework;
-
-import com.mysql.jdbc.Driver;
+package com.why.p1serviceproviderframework;
 
 import java.sql.*;
 
