@@ -15,6 +15,7 @@ public class Singleton {
     public static String getStr(){
         return "weioewoiqruow";
     }
+
     private static class Inner{
         private static final Singleton INSTANCE = new Singleton();
     }
